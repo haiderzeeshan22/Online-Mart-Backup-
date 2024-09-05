@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["haiderzeeshan22 <shani.pcr2244@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.1"
+sqlmodel = "^0.0.21"
+uvicorn = {extras = ["standard"], version = "^0.30.6"}
+psycopg = {extras = ["binary"], version = "^3.2.1"}
+aiokafka = "^0.11.0"
+python-multipart = "^0.0.9"
+passlib = "^1.7.4"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
