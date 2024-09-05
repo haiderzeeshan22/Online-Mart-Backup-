@@ -34,7 +34,7 @@ async def lifespan(app: FastAPI)-> AsyncGenerator[None, None]:
     # task = asyncio.create_task(consume_messages('todos', 'broker:19092'))
     yield
 
-
+#  Fast API Code 
 app = FastAPI(lifespan=lifespan, title="Hello World API with DB", 
     version="0.0.1",
     # servers=[
